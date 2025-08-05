@@ -26,15 +26,15 @@ The dashboard displays Year-over-Year (YoY) growth percentages alongside registr
 ## Setup Instructions
 
 1. **Clone the repository:**
-git clone https://github.com/mdNoman21/ffree.git
-cd <repo_folder>
+- `git clone https://github.com/mdNoman21/ffree.git`
+- `cd <repo_folder>`
 
 2. **Install dependencies:**
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 
 3. **Run the app:**
-python -m streamlit run main.py
+`python -m streamlit run main.py`
 
 
 ---
