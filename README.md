@@ -26,7 +26,7 @@ The dashboard displays Year-over-Year (YoY) growth percentages alongside registr
 ## Setup Instructions
 
 1. **Clone the repository:**
-git clone <repo_url>
+git clone https://github.com/mdNoman21/ffree.git
 cd <repo_folder>
 
 2. **Install dependencies:**
@@ -40,7 +40,7 @@ python -m streamlit run main.py
 ---
 
 ## Code Structure
-- `app.py`: Streamlit dashboard app with UI and visualization logic
+- `main.py`: Streamlit dashboard app with UI and visualization logic
 - `requirements.txt`: Python dependencies
 
 ---
