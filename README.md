@@ -6,7 +6,7 @@ This project is an interactive dashboard built with Streamlit that visualizes ve
 The dashboard displays both Year-over-Year (YoY) growth percentages alongside registration trends for annual data, as well as Quarter-over-Quarter (QoQ) growth for the most recent quarterly data (2025), enabling investors and analysts to track performance and identify promising opportunities in the automotive market.
 
 You can access the **deployed live dashboard here:**  
-[https://a82kpdsjpwvq86tdu9ntmu.streamlit.app/](https://a82kpdsjpwvq86tdu9ntmu.streamlit.app/)
+[https://a82kpdsjpwvq86tdu9ntmu.streamlit.app/](https://k3un44gncevt52ksgdm744.streamlit.app/)
 
 ---
 
@@ -59,12 +59,13 @@ To run the app locally:
 ---
 
 ## Data Assumptions
-- The data accuracy relies on the original Vahan Dashboard source.
-- Annual data covers 2016 through 2025; quarterly data is included only for the year 2025.
-- For annual data, only Year-over-Year (YoY) growth analysis is possible as no quarterly breakdown exists.
-- For 2025, quarterly data supports Quarter-over-Quarter (QoQ) growth metrics.
-- Numeric data columns have been cleaned by removing commas and converting to numeric types.
-- Default filters usually show recent years and a subset of top manufacturers for optimal performance.
+- Data accuracy depends on the original Vahan Dashboard source.
+- Annual data is available for years 2016 through 2025; quarterly data is included only for the year 2025.
+- YoY (Year-over-Year) growth is calculated only for the annual data since quarterly breakdowns for earlier years are not available.
+- QoQ (Quarter-over-Quarter) growth analysis is provided solely for the quarterly data of 2025.
+- Numeric data columns are cleaned by removing commas and converting to numeric types, ensuring proper calculations.
+- Some vehicle categories or makers may have missing data for certain years or quarters; these are flagged and handled gracefully in the dashboard.
+- Default filters show the most recent years and a subset of top manufacturers for responsive performance.
 
 ---
 
